@@ -1,0 +1,363 @@
+<style>
+    #outer {
+      height: 1740px;
+      width: 1450px;
+    
+    }
+
+    #out {
+      height: 1610px;
+      width: 1300px;
+
+
+      margin: 50px;
+    }
+
+    .row {
+      height: 300px;
+      width: 1300px;
+     
+
+    }
+
+    #one {
+      height: 300px;
+      width: 300px;
+      background-color: #5e333b;
+      border-radius: 150px 150px 0px 150px;
+    }
+
+    #two {
+      height: 300px;
+      width: 300px;
+      background-color: #E9A6A6;
+      border-radius: 150px 150px 150px 0px;
+    }
+
+
+    #three {
+      height: 300px;
+      width: 300px;
+      background-color:  #E9A6A6;
+
+      border-radius: 150px 0px 150px 150px;
+      float: left;
+    }
+
+    #four {
+      height: 300px;
+      width: 300px;
+      background-color: #5e333b;
+      border-radius: 0px 150px 150px 150px;
+      float:left;
+     
+      
+     
+     
+    }
+
+    .row1 {
+      height: 500px;
+      width: 1293px;
+   
+
+
+    }
+
+    .list{
+     
+      font-size:1.5rem ;
+      margin:15px auto auto 15px;
+      color:white;
+
+    }
+
+    #a {
+      height: 300px;
+      width: 300px;
+
+      float: left;
+      background-color: white;
+      margin-right:8px;
+    }
+
+    #i {
+      height: 300px;
+      width: 300px;
+      float: left;
+      margin-top:8px;
+      margin-right:8px;
+
+
+      background-color:  #5e333b;
+    }
+
+    #b {
+      height: 300px;
+      width: 300px;
+      float: left;
+      background-color: WHITE;
+    }
+
+    #d {
+      height: 300px;
+      width: 960px;
+      float: left;
+      margin-top:8px;
+     
+      background-image: url('ridee.jpg');
+      background-repeat: norepeat;
+      background-size: cover;
+      background-attachment: notfixed;
+    
+
+    }
+    .news{
+  
+  padding-left:50px;
+  padding-bottom:60px;
+  font-family: 'Times New Roman', Times, serif;
+     font-size:5.8rem;
+     color:#06687e;
+     letter-spacing: 2px;
+     
+   
+    }
+    .sky{
+     
+      text-align: right;
+      margin:22px 8px auto auto;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:3rem ;
+      color:white;
+      line-height: 1;
+     
+
+    }
+    
+
+    .leaf {
+      height: 300px;
+      width: 992px;
+      float: left;
+    }
+
+    .c1 {
+      height: 75px;
+      width: 662px;
+      float: left;
+      
+
+    }
+    .vol{
+          
+      text-align: right;
+      margin:8px 25px auto auto;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:2rem ;
+      color:#06687e;
+      line-height: 1;
+
+    }
+    .titleh{
+          
+      text-align: right;
+      margin:8px 25px auto auto;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:1.3rem ;
+      color:coral;
+      
+
+    }
+    .topic{
+      text-align:left;
+      margin:auto;
+      padding-left: 20px;
+      padding-top: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:2rem ;
+     
+      color:white;
+        
+    }
+    .head{
+      text-align:left;
+      margin:auto;
+      padding-left: 20px;
+      padding-top: 20px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:2rem ;
+      color:white;
+        
+    }
+    th{
+      text-align:left;
+      margin:auto;
+     
+      font-family: 'Times New Roman', Times, serif;
+      font-size:1.5rem ;
+      color:#5e333b;    
+    }
+    tr{
+      text-align:left;
+      margin:auto;
+     
+      font-family: 'Times New Roman', Times, serif;
+      font-size:1.2rem ;
+      color:#06687e; 
+      font-weight: bolder;
+     
+    }
+    .topic1{
+      text-align:left;
+
+      padding-top:40px;
+      padding-left:30px;
+     
+     width:80%;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:1.3rem ;
+      font-weight: bolder;
+      color:  #5e333b; 
+    }
+    .topic2{
+      text-align:left;
+
+      padding-top:40px;
+      padding-left:30px;
+     
+     width:80%;
+     font-family: 'Times New Roman', Times, serif;
+      font-size:1.3rem ;
+      font-weight: bolder;
+      color: #06687e; 
+    }
+
+
+    .c11 {
+      height: 75px;
+      width: 662px;
+      float: left;
+     
+
+    }
+
+    .c2 {
+      height: 150px;
+      width: 662px;
+      float: left;
+     
+    }
+    .mypic{
+      margin:auto;
+      padding-top: 10px;
+      padding-left: 15px;
+      height: 280px;
+      width:270px;
+}
+    #e {
+      height: 1000px;
+      width: 300px;
+      float: left;
+
+      background-color: #95D1CC;
+    }
+
+    .f {
+      height: 79px;
+      width: 965px;
+      float: left;
+      
+      background-color: coral;
+    }
+    .f1 {
+      height: 40px;
+      width: 965px;
+      float: left;
+      
+      background-color:#06687e;
+    }
+    .f2 {
+      height: 40px;
+      width: 965px;
+      float: left;
+      
+      background-color:white;
+    }
+    .k {
+      height: 79px;
+      width: 300px;
+      float: left;
+      border-width: 10px;
+      margin-right:8px;
+
+      background-color: #06687e;
+    }
+
+    .g {
+      height: 418px;
+      width: 992px;
+      float: left;
+      
+     
+    }
+    .row2 {
+      height: 412px;
+      width: 965px;
+      float: left;
+     border:solid;
+
+     border-color: coral;
+      background-color:  white;
+    }
+
+    .h {
+      height: 480px;
+      width: 280px;
+      margin:15px 20px 20px 20px;
+      float: left;
+      background-color: #E9A6A6;
+
+    }
+    .hf {
+      height: 480px;
+      width: 280px;
+      margin:15px 20px 20px 20px;
+      float: left;
+      border:solid;
+      
+      border-color: #95D1CC;
+      background-color:white;
+
+    }
+    .skill2{
+     
+      float: right;
+    
+     padding-top: 15px;
+     padding-left: 5px;
+     padding-right:20px;
+     
+      height: 150px;
+      width: 150px;
+
+}
+    .l{
+          height:70px;
+          background-color:  #5e333b;
+
+      width: 280px;
+    }
+    .l1{
+      height:70px;
+      background-color: #95D1CC;
+
+  width: 280px;
+}
+    .m{
+      height:90px;
+      background-color:coral;
+
+  width: 965px;
+}
+  </style>
